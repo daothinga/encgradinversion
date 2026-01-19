@@ -87,13 +87,13 @@ Auto-downloads into `~/.torch`.
 2) LFWPeople (using local archive)
 This repo uses the deepfunneled LFW archive already placed under:
 ```
-code_EncGrad/archive/lfw-deepfunneled/lfw-deepfunneled/
+./archive/lfw-deepfunneled/lfw-deepfunneled/
 ```
 No torchvision download is required. The code reads images directly from this folder.
 
 3) ImageNet
-Create `code_EncGrad/Imagenet/` and put images directly inside it.
-This folder is ignored by git.
+Create `./Imagenet/` and put images directly inside it.
+You can download 1000 images of Imagenet dataset from here: https://github.com/EliSchwartz/imagenet-sample-images
 
 Generate index lists (required by main_gradient_attack_iot24_round1.py)
 ----------------------------------------------------------------------
